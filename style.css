@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+}
+.titles>h1{
+    font-size: 120px;
+    text-align: center;
+    font-family: "Parisienne", cursive;
+     font-weight: 600;
+}
+.titles>h2{
+    font-size: 63px;
+    text-align: center;
+    padding-top: 50px;
+}
+.flexible{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container-fluid{
+    background-color: rgb(121, 218, 244);    
+}
+.titles{
+    display: flex;
+    justify-content: center;
+    color: rgb(41, 97, 134);
+}
+.secondpage{
+    padding-top: 80px;
+}
+.third>img{
+    width: 100%;
+    
+    border-radius: 50%;
+    border: 8px solid #78DAF3;
+}
+.second>img{
+    width: 100%;
+    border: 8px solid  rgb(41, 97, 134);
+    border-radius: 50%;
+    
+    margin-bottom: 40px;
+}
+.first>img{
+    width: 100%;
+    
+    border-radius: 50%;
+    border: 8px solid  #78DAF3;
+    margin-bottom: 40px;
+}
+
+
+.secondpage .title{
+    
+    padding-bottom: 30px;
+    color: rgb(41, 97, 134);
+}
+.secondpage .title h1{
+    font-size: 63px;
+}
+
+.third img{
+    margin-bottom: 40px;
+}
+
+#target1{
+    font-size: 30px;
+    color: #78DAF3;
+}
+#target3{
+    font-size: 30px;
+    color: rgb(41, 97, 134);
+}
+#target2{
+    font-size: 30px;
+    color: #78DAF3;
+}
+
+.fotom img{
+    border: #78DAF3 3px solid;
+    border-radius: 50%;
+}
+
+.title3{
+    text-align: center;
+    
+}
+.title3 h1{
+    font-size: 70px;
+    color: white;
+}
+.title4 h2{
+    font-size: 50px;
+    color: white;
+}
+.title4{
+    text-align: center;
+}
+.images{
+    color: white;
+}
+.images>.col-12>img{
+    
+    border-radius: 20px;
+}
+
+.images h2{
+    margin-top: 20px;
+}
+.lastpage{
+    background-color: #78DAF3;
+    color:rgb(41, 97, 134) ;
+}
+
+.contactme h1{
+    font-size: 70px;
+    text-align: center;
+}
+.e-mail, .github , .linkedIn{
+    text-align: end;
+}
+.footer{
+    padding: 100px;
+    background-color: rgb(41, 97, 134) ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+@media(min-width:768px) and (max-width:992px){
+    .titles>h1{
+        text-align: left;
+        padding: 10px;
+    }
+    .titles>h2{
+        text-align: left;
+        margin: 0;
+    }
+    .titles{
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+    .secondpage .title h1{
+        text-align: center;
+    }
+    .e-mail, .github , .linkedIn{
+        text-align: center;
+    }
+
+}
+@media(max-width:576px){
+    .titles{
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+    .titles>h1{
+        text-align: left;
+        
+    }
+    .titles>h2{
+        text-align: left;
+        margin: 0;
+    }
+    .images{
+        text-align: center;
+    }
+    .secondpage{
+        text-align: center;
+    }
+    .e-mail, .github , .linkedIn{
+        text-align: center;
+    }
+}
+
+@media(min-width:577px) and (max-width:767){
+    .titles{
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+    .titles>h1{
+        text-align: left;
+        
+    }
+    .titles>h2{
+        text-align: left;
+        margin: 0;
+    }
+    .secondpage .title h1{
+        text-align: center;
+    }
+    .e-mail, .github , .linkedIn{
+        text-align: center;
+    }
+}
+
